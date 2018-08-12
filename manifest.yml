@@ -2,5 +2,6 @@
 applications:
 - name: cf-nodejs
   memory: 100M
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   instances: 1
   random-route: true
